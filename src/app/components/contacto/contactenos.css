@@ -1,0 +1,269 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #0c0b09;
+    color: #fff;
+}
+
+.bi-cart {
+    font-size: 20px;
+}
+
+a {
+    color: #cda45e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9ba85;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+    padding: 150px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #1a1814;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contact .info {
+    width: 100%;
+}
+
+.contact .info i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #cda45e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    display: flex;
+    padding: 0 0 0 17px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #bab3a6;
+}
+
+.contact .info .open-hours,
+.contact .info .email,
+.contact .info .phone {
+    margin-top: 40px;
+}
+
+.contact .php-email-form {
+    width: 100%;
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #cda45e;
+    border-top-color: #1a1814;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    color: #0c0b09 !important;
+    background-color: #fafafa !important;
+    border-color: #625b4b;
+}
+
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
+    color: #a49b89;
+}
+
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
+    color: #a49b89;
+}
+
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
+    color: #a49b89;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+    color: #0c0b09 !important;
+    background-color: #fafafa !important;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+    border: 0;
+    padding: 10px 35px;
+    color: #0c0b09 !important;
+    background-color: #fafafa !important;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+    color: #0c0b09 !important;
+    background-color: #fafafa !important;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.contacto {
+    padding: 10px 12px;
+    color: #bab3a6;
+    background-color: #0c0b09;
+    border: 1px solid #625b4b;
+    background-image: linear-gradient(45deg, transparent 50%, rgb(186, 179, 166) 60%), linear-gradient(135deg, rgb(186, 179, 166) 40%, transparent 50%) !important;
+    background-position: calc(100% - 30px) 14px, calc(100% - 20px) 14px, 100% 0;
+    background-size: 10px 10px, 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* 
+MAPA 
+*/
+.mapa{
+    width: 100%; height: 350px;
+}
+
+.form-select-sm {
+    color: #0c0b09 !important;
+    background-color: #fafafa !important;
+}

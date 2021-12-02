@@ -1,0 +1,48 @@
+.head-admin {
+  padding-top: 70px;
+}
+
+.modal-bg .modal-content {
+  background-color: #0c0b09;
+}
+
+.bt-insertar {
+  text-align: center;
+  padding: 50px;
+  font-size: 55px;
+}
+
+.icon-add{
+  position: absolute;
+  color: white;
+  font-size: 38px;
+  font-weight: 900;
+  margin-left: -18px;
+  margin-top: -30px;
+}
+.bt-add{
+  height: 52px;
+  width: 52px;
+}
+
+.preview-imagen{  
+  width: 70px;
+}
+
+.preview-imagen-horizontal{  
+  width: 200px;
+}
+
+.cont-img{
+  text-align: center;
+}
+
+.preview-imagen-formulario{
+  padding: 10px 0px 0px 0px;
+  width: 50px;
+}
+
+.preview-imagen-form-horizontal{
+  padding: 10px 0px 0px 0px;
+  width: 150px;    
+}

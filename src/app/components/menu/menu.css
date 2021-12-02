@@ -1,0 +1,319 @@
+a {
+  color: #cda45e;
+  text-decoration: none;
+}
+
+.text-menu {
+  color: #fff;
+  font-size: 2.3rem;
+  margin-left: 12%;
+}
+
+
+.btn-pdf {
+  margin-left: auto;
+  margin-right: -45%;
+  background-color: #ffff;
+  color: #000;
+  border-color: #000;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.btn-pdf:hover {
+  background-color: #cda45e;
+  color: #fff;
+  border-color: #cda45e;
+}
+
+.btn-pdf::after {
+  background-color: #cda45e;
+}
+
+
+.add-to-cart-btn {
+  color: #cda45e;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-to-cart-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+.titulo-seccion1 {
+  padding: 60px 0px 15px;
+}
+
+/*Menu*/
+
+.menu {
+  padding: 0px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.menu .menu-flters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu .menu-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+.menu .menu-flters li:hover,
+.menu .menu-flters li.filter-active {
+  color: #cda45e;
+}
+
+.menu .menu-flters li:last-child {
+  margin-right: 0;
+}
+
+.menu .menu-item {
+  margin-top: 50px;
+}
+
+.menu .menu-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu .menu-content {
+  margin-left: 85px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu .menu-content::after {
+  content: "......................................................................"
+    "...................................................................."
+    "....................................................................";
+  position: absolute;
+  left: 30px;
+  right: 0;
+  top: -4px;
+  color: #bab3a6;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu .menu-content label {
+  text-decoration: none;
+  padding-right: 10px;
+  position: relative;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s;
+}
+
+label {
+  background-color: #1a1814;
+  z-index: 1;
+}
+
+.menu .menu-content span {
+  background: #1a1814;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #cda45e;
+}
+
+.menu .menu-ingredients {
+  margin-left: 85px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #cda45e;
+}
+
+.pagination {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  top: 4rem;
+}
+
+.pagination>.active>a {
+  background-color: #cda45e;
+  color: #fff;
+}
+
+.pagination>li>a {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+section {
+  background-color: #1a1814;
+  padding: 0;
+  user-select: none;
+}
+
+.platos-menu {
+  margin-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+}
+
+.menu-button {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+}
+
+/*Media Query*/
+
+@media all and (min-width: 900px) and (max-width: 1700px) {
+  .platos-menu {
+    display: grid;
+    padding: 5%;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  }
+  .text-menu {
+    color: #fff;
+    font-size: 2.3rem;
+    margin-left: -37%;
+  }
+
+
+  .btn-pdf {
+    margin-right: -65%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1240px) {
+  .platos-menu {
+    display: grid;
+    padding: 5%;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 991px) {
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .platos-menu {
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .platos-menu {
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+  .text-menu {
+    color: #fff;
+    font-size: 2.3rem;
+    margin-left: -48%;
+  }
+
+
+  .btn-pdf {
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 495px) {
+  .platos-menu {
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .menu-button {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+  .text-menu {
+    color: #fff;
+    font-size: 2.3rem;
+    margin-left: -62%;
+  }
+
+
+  .btn-pdf {
+    margin-right: auto;
+  }
+}
