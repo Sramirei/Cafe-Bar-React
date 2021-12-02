@@ -1,6 +1,6 @@
 # GITHUBPAGES
 
-https://millerpalacios.github.io/react-cafe-bar/
+https://sramirei.github.io/Cafe-Bar-React/
 
 # Getting Started with Create React App
 
